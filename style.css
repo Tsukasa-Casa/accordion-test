@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.buttons{
+    display: flex;
+    position: relative;
+}
+
+.label1{
+    margin-left: 10px;
+    background-color: gray;
+}
+
+.label2{
+    background-color: orange;
+}
+
+.label3{
+    background-color: green;
+}
+
+/* .page1{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 80px;
+}
+
+.page2{
+    width: 80px;
+    position: absolute;
+    top: 20px;
+    left: 110px;
+}
+
+.page3{
+    width: 80px;
+} */
+
+.contents{
+    width: 800px;
+    height: 200px;
+    border: solid 2px black;
+    border-radius: 8px;
+}
+
+#page1{
+    display: none;
+}
+
+#page2{
+    display: none;
+}
+
+#page3{
+    display: none;
+}
